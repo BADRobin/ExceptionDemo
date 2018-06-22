@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Enter age: ");
         Person person = new Person();
         try {
-            throw new Exception("It's OK");
+            throw new Exception();
         } catch (Exception e) {
             person.setAge();
 

@@ -7,6 +7,7 @@ public class Person {
         private String firstName;
         private String lastName;
         private int age = scanner.nextInt();
+        private String itOk = new String("It's OK");
 
 
         public String getFirstName () {
@@ -34,8 +35,10 @@ public class Person {
 
 
             if (age >= 1 && age <= 120) {
-
+                System.out.println("It's Ok");
                 return age;
+
+
             } else {
 
                 throw new InvalidAgeException("");
